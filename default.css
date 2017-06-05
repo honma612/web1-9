@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+body{
+  background-image: url(toy_hand_spinner_boy2.png), url(1489805339775.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-color: lightgray;
+  margin: 5px;
+}
+
 #text-shadow{
   padding: 0 40px;
   font-size: 30px;
