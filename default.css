@@ -84,3 +84,24 @@ body{
 .skew{
   transform: skew(15deg, 30deg);
 }
+
+p.transition{
+  margin: 10px;
+}
+
+p.transition a{
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+p.transition a:hover{
+  background-color: yellow;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+}
