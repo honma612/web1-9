@@ -48,3 +48,19 @@ body{
 .box-multi_shadow{
   box-shadow: 0px 0px 3px lightgray inset, 0px 0px 0px 4px black inset, 2px 2px 10px 0px black; padding: 5px; margin: 20px;
 }
+
+.btn{
+  display: block;
+  -webkit-appearance: none;
+  -webkit-border-radius: 5;
+  text-align: center;
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+  background-color: blue;
+  background: linear-gradient(0deg, #00679A, #0081B4 50%, #63B3D2 50%, #BFE5F2);
+}
