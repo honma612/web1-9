@@ -64,3 +64,23 @@ body{
   background-color: blue;
   background: linear-gradient(0deg, #00679A, #0081B4 50%, #63B3D2 50%, #BFE5F2);
 }
+
+.transform{
+  font-size: 10px; width: 100px; text-align: center; padding: 45px 0px; margin: 20px; background-color: yellow;
+}
+
+.translate2{
+  transform: translate(-20px, -5px);
+}
+
+.scale2{
+  transform: scale(1.2);
+}
+
+.rotate{
+  transform: rotate(30deg);
+}
+
+.skew{
+  transform: skew(15deg, 30deg);
+}
